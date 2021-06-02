@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik+Mono+One&display=swap');
+
+body {
+  margin: auto;
+  font-family: Montserrat, "Rubik Mono One", Roboto, Sans-Serif;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FTjUG3t2.jpg&f=1&nofb=1");
+   }
+#barra-fija {
+position: fixed;
+background-color: black;
+width: 100%;
+z-index: 10;
+}
+
+#icono {
+  width: 100px;
+}
+
+#boton {
+background-color: black;
+border: none;
+cursor: pointer;
+padding: 5px;
+}
+#boton:hover {
+background-color: grey;
+}
+
+#desplegable {
+position: absolute;
+display: none;
+background-color: black;
+width: 150px;
+}
+
+#barra-fija:hover #desplegable {
+display: block;
+}
+
+#desplegable a {
+display: block;
+color: white;
+text-decoration: none;
+padding: 20px;
+}
+
+#desplegable a:hover {
+  background-color: grey;
+}
+
+#main {
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  z-index: 1; 
+}
+
+#hunter-logo {
+  max-width: 100%;
+  height: auto;
+  margin-top:65px;
+}
+
+ #title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+h1{  
+  font-size: 28pt;
+  border-bottom: 3px solid;
+  border-radius: 3px;
+  padding: 0px 15px;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 35pt;
+  border-bottom: 2px solid black;
+  padding: 0px 10px;
+  border-radius: 2px;
+  }
+
+h4 {
+  margin: 50px 0px 30px;
+  font-size: 30pt;  
+  max-width: 800px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+ 
+#creator-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#togashi-pic {
+  margin: 20px;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+#bio {
+  font-size: 1.5em;
+  max-width: 800px;
+  }
+
+
+#openings-box {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  overflow: hidden;
+ }
+
+iframe {
+ flex: 0 1 auto; 
+ margin: 20px; 
+ width: 352px;
+ height: 199px;
+ border: 3px solid;
+ border-radius: 3px;
+ }
+
+#about-openings { 
+  flex: 1;
+  font-size: 1.5em;
+  max-width: 800px;
+  max-height: 500px;
+  }
+
+#cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  }
+
+ .card {
+   margin: 10px;
+   height: 400px;
+   width: 300px;   
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+.card-pic {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 3px;
+  }
+
+.card h4{
+  margin: 10px
+}
+
+#link-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ }
+
+.link {
+  flex: auto;
+  width: 200px;
+ }
+
+.link-pic {
+  width: 150px;
+  height: 150px;
+  flex: auto;
+  margin-bottom: 0px;
+  border: 5px solid black;
+  border-radius: 100%;
+  }
+
+.link h4{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  }
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+   }
+
+#footer a {
+  color: green;
+  }
